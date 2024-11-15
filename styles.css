@@ -1,0 +1,190 @@
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed; /* Fija el header en la parte superior */
+    top: 0; /* Posición en la parte superior */
+    left: 0; /* Alineado a la izquierda */
+    width: 100%; /* Ocupa todo el ancho de la página */
+}
+
+/* Espacio para que el contenido no quede oculto debajo del header */
+.content {
+    margin-top: 60px; /* Ajusta esto según el alto de tu header */
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navbar */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+.navbar ul li {
+    position: relative;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+/* Menú desplegable en el encabezado */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #666;
+    min-width: 150px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: white;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #777;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Contenido principal */
+.main-content {
+    padding: 8rem;
+    flex: 1;
+}
+
+/* Secciones de contenido */
+.content-section {
+    display: none;
+}
+
+/* Mostrar solo la sección seleccionada */
+.content-section:target {
+    display: block;
+}
+
+footer {
+    position: fixed; /* Fija el pie de página en una posición */
+    left: 0;
+    bottom: 0; /* Lo coloca en la parte inferior */
+    width: 100%; /* Hace que ocupe todo el ancho de la pantalla */
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    padding: 10px 0; /* Espaciado interno */
+}
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-image: url('img/principal6.jpg'); /* Cambia esta ruta a la ubicación de tu imagen */
+    background-size: cover; /* Esto hace que la imagen cubra todo el área del fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/* Contenedor de la galería de imágenes */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual tamaño */
+    gap: 2rem; /* Espacio entre las imágenes */
+    padding: 2rem;
+}
+
+/* Estilos para las imágenes */
+.gallery img {
+    width: 100%; /* Las imágenes ocuparán el 100% del ancho de su celda */
+    height: 200px; /* Establece una altura fija */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional para las imágenes */
+}
+
+h1, h2, h3, p {
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+/* Contenedor centrado usando CSS Grid */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas iguales para las imágenes de arriba */
+    gap: 1rem; /* Espacio entre las imágenes */
+    justify-items: center; /* Centra las imágenes dentro de sus celdas */
+    padding: 20px;
+    max-width: 2000px; /* Ajusta el tamaño máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+.image-container img {
+    width: 100%; /* Las imágenes ocuparán el 100% del ancho de su celda */
+    height: 300px; /* Establece una altura mayor */
+    object-fit: cover; /* Asegura que las imágenes se ajusten bien sin distorsionarse */
+    border-radius: 8px;
+}
+
+
+.image-container-promo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 columnas de igual tamaño */
+    gap: 2rem; /* Espacio entre las imágenes */
+    padding: 2rem;
+}
+
+.image-container-promo img {
+    width: 100%; /* Las imágenes ocuparán el 100% del ancho de su celda */
+    height: 300px; /* Establece una altura fija */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional para las imágenes */
+}
+
+ul {
+    padding: 10px;   /* Relleno interno de 20px */
+    margin: 10px;    /* Espacio externo de 30px */
+}
+
+.container-menu {
+    display: block;
+    margin: auto;
+    max-width: 50%; 
+  }
+
+
+
+
+

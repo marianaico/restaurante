@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header con navegación -->
+    <header>
+        <h1 style="margin-left: 10px;">Restaurante Gourmet</h1>
+        <nav class="navbar">
+            <ul>
+                <li class="dropdown">
+                    <a href="#menu-principal">Menú Principal</a>
+                </li>
+                <li class="dropdown">
+                    <a style="pointer-events: none;">Menú de Comida</a>
+                    <div class="dropdown-content">
+                        <a href="#platos-principales">Platos Principales</a>
+                        <a href="#bebidas">Bebidas</a>
+                        <a href="#postres">Postres</a>
+                        <a href="#paquetes">Paquetes</a>
+
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#galeria">Galería</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#promociones">Promociones</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <div class="main-content">
+        <!-- Secciones del contenido principal (igual que antes) -->
+        <section id="menu-principal" class="content-section img-menu">
+            <p style="padding: 10px; padding-bottom: 2%;">En <b>Restaurante Gourmet</b> nos dedicamos a ofrecer una experiencia gastronómica única, donde cada platillo es elaborado con ingredientes frescos y de alta calidad. Nuestro menú está cuidadosamente diseñado para deleitar a todos los paladares, combinando sabores tradicionales y toques innovadores.
+                Desde el momento en que entras, nuestro ambiente acogedor y nuestro equipo amable te harán sentir como en casa. Nos esforzamos en brindar un servicio cálido y atento, asegurándonos de que cada visita sea memorable. Ya sea que vengas a disfrutar de una cena íntima, una celebración especial o un momento de relax, aquí encontrarás el lugar perfecto para compartir y saborear.
+                ¡Gracias por elegirnos y bienvenidos a una experiencia culinaria excepcional!</p>
+
+                <img class="container-menu" src="img/bienvenida.jpg" alt="Imagen 1">
+        </section>
+
+        <section id="menu-comida" class="content-section">
+            <h2>Menú de Comida</h2>
+             <p>Descubre nuestro menú especial.</p>
+        </section>
+
+        <section id="platos-principales" class="content-section">
+            <h3>Platos Principales</h3>
+            <p>Los mejores platos principales de nuestra cocina.</p>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="img/platos-principales/1.jpg" alt="Imagen 1">
+                    <ul>
+                        <li>Salmon a la diabla</li>
+                        <li>Ingredientes: salmon y apio</li>
+                        <li>Precio: $349.99</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/platos-principales/2.jpg" alt="Imagen 2">
+                    <ul>
+                        <li>Carne de res a la naranja</li>
+                        <li>Ingredientes: Carne de res, naranja y verduras</li>
+                        <li>Precio: $139.99</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/platos-principales/3.jpg" alt="Imagen 3">
+                    <ul>
+                        <li>Camarones empanizados</li>
+                        <li>Ingredientes: camarones, naranja y verduras</li>
+                        <li>Precio: $199.99</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/platos-principales/4.jpg" alt="Imagen 4">
+                    <ul>
+                        <li>Carne a la plancha</li>
+                        <li>Ingredientes: Carne de res con verduras al vapor</li>
+                        <li>Precio: $99.99</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="bebidas" class="content-section">
+            <h3>Bebidas</h3>
+            <p>Los mejores platos principales de nuestra cocina.</p>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="img/bebidas/1.jpg" alt="Imagen 1">
+                    <ul>
+                        <li>Bebidas naturales</li>
+                        <li>Precio: $49.99 c/u</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/bebidas/2.jpg" alt="Imagen 2">
+                    <ul>
+                        <li>Aguas gasificadas</li>
+                        <li>Precio: $39.99 c/u</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/bebidas/3.jpg" alt="Imagen 3">
+                    <ul>
+                        <li>Refrescos</li>
+                        <li>Precio: $19.99 c/u</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/bebidas/4.jpg" alt="Imagen 4">
+                    <ul>
+                        <li>Clamato 500ml</li>
+                        <li>Precio: $49.99</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="postres" class="content-section">
+            <h3>Postres</h3>
+            <p>Postres irresistibles para un final perfecto.</p>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="img/postres/1.jpg" alt="Imagen 1">
+                    <ul>
+                        <li>Pay tipo imposible</li>
+                        <li>Precio: $49.99</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/postres/2.jpg" alt="Imagen 2">
+                    <ul>
+                        <li>Pastel de fresa y chocolate</li>
+                        <li>Precio: $49.99</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/postres/3.jpg" alt="Imagen 3">
+                    <ul>
+                        <li>Flan de fresa y mermelada</li>
+                        <li>Precio: $39.99</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/postres/4.jpg" alt="Imagen 4">
+                    <ul>
+                        <li>Flan imposible</li>
+                        <li>Precio: $59.99</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="paquetes" class="content-section">
+            <h3>Paquetes</h3>
+            <p>Explora nuestras deliciosas entradas.</p>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="img/paquetes/1.jpg" alt="Imagen 1">
+                    <ul>
+                        <li>3 Tacos al gusto con frijoles</li>
+                        <li>Precio: $79.99</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/paquetes/2.jpg" alt="Imagen 2">
+                    <ul>
+                        <li>Pechuga empanizada con arroz y un refresco</li>
+                        <li>Precio: $109.99</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/paquetes/3.jpg" alt="Imagen 3">
+                    <ul>
+                        <li>Pieza de pollo con papas y ensalada</li>
+                        <li>Precio: $99.99</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/paquetes/4.jpg" alt="Imagen 4">
+                    <ul>
+                        <li>Sopa, arroz y guisado</li>
+                        <li>Precio: $69.99</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/paquetes/5.jpg" alt="Imagen 5">
+                    <ul>
+                        <li>Comida corrida, agua y postre</li>
+                        <li>Precio: $79.99</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/paquetes/6.jpg" alt="Imagen 6">
+                    <ul>
+                        <li>Tacos dorados con sopa de fideos</li>
+                        <li>Precio: $59.99</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/paquetes/7.jpg" alt="Imagen 7">
+                    <ul>
+                        <li>2x1 en tacos de bistec</li>
+                        <li>Precio: $49.99</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/paquetes/8.jpg" alt="Imagen 8">
+                    <ul>
+                        <li>Nuggets de pollo con salsa italiana</li>
+                        <li>Precio: $89.99</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="content-section">
+            <h2>Galería</h2>
+            <p>Mira nuestras fotos del restaurante y los platos.</p>
+            <div class="image-container">
+                <img src="img/galeria/1.jpg" alt="Imagen 1">
+                <img src="img/galeria/2.jpg" alt="Imagen 2">
+                <img src="img/galeria/3.jpg" alt="Imagen 3">
+                <img src="img/galeria/4.jpg" alt="Imagen 4">
+                <img src="img/galeria/5.jpg" alt="Imagen 5">
+                <img src="img/galeria/6.jpg" alt="Imagen 6">
+            </div>
+        </section>
+
+        <section id="promociones" class="content-section">
+            <h2>Promociones</h2>
+            <p>Ofertas del mes.</p>
+            <div class="image-container-promo">
+                <div class="gallery-item">
+                    <img src="img/promociones/1.jpg" alt="Imagen 1">
+                    <ul>
+                        <li>2x1 En platillos principales</li>
+                        <li>Ingredientes: A elegir</li>
+                        <li>Precio: $299.99</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/promociones/2.jpg" alt="Imagen 2">
+                    <ul>
+                        <li>Platillo de mariscos</li>
+                        <li>Ingredientes: Mariscos</li>
+                        <li>Precio: $300 c/u</li>
+                    </ul>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/promociones/3.jpg" alt="Imagen 3">
+                    <ul>
+                        <li>En la compra de cualquier paquete llevate un descuento de $200 pesos</li>
+                        <li>Ingredientes: pollo elotes</li>
+                        <li>Precio: $200 descuento</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Mariana Belem Perez Cruz-Programacion web-Grupo 1507.
+    </footer>
+
+</body>
+
+</html>
